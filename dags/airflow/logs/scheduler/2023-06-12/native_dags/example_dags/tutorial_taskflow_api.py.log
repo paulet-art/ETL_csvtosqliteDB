@@ -1,0 +1,11 @@
+[2023-06-12T22:17:35.727+0300] {processor.py:157} INFO - Started process (PID=24064) to work on /home/paulet/anaconda3/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-06-12T22:17:35.728+0300] {processor.py:826} INFO - Processing file /home/paulet/anaconda3/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-06-12T22:17:35.729+0300] {logging_mixin.py:149} INFO - [2023-06-12T22:17:35.729+0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/paulet/anaconda3/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-06-12T22:17:35.740+0300] {processor.py:836} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/paulet/anaconda3/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-06-12T22:17:36.067+0300] {logging_mixin.py:149} INFO - [2023-06-12T22:17:36.066+0300] {manager.py:504} INFO - Created Permission View: can read on DAG:tutorial_taskflow_api
+[2023-06-12T22:17:36.178+0300] {logging_mixin.py:149} INFO - [2023-06-12T22:17:36.177+0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:tutorial_taskflow_api
+[2023-06-12T22:17:36.288+0300] {logging_mixin.py:149} INFO - [2023-06-12T22:17:36.287+0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:tutorial_taskflow_api
+[2023-06-12T22:17:36.289+0300] {logging_mixin.py:149} INFO - [2023-06-12T22:17:36.289+0300] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-12T22:17:36.332+0300] {logging_mixin.py:149} INFO - [2023-06-12T22:17:36.331+0300] {dag.py:2747} INFO - Creating ORM DAG for tutorial_taskflow_api
+[2023-06-12T22:17:36.353+0300] {logging_mixin.py:149} INFO - [2023-06-12T22:17:36.353+0300] {dag.py:3486} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-06-12T22:17:36.559+0300] {processor.py:179} INFO - Processing /home/paulet/anaconda3/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.835 seconds
