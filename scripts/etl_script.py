@@ -4,7 +4,7 @@ from datetime import datetime
 
 def etl_process():
     # Extract
-    with open('data/data.csv', 'r') as file:
+    with open('/home/paulet/Documents/ETL_csvtosqliteDB/data/mpesa_fraud_complaints.csv', 'r') as file:
         reader = csv.DictReader(file)
         data = [row for row in reader]
 
@@ -27,5 +27,6 @@ def etl_process():
         c.execute('''INSERT INTO fraud_cases (fraud_id, phone_number, fraud_type, 
                      complaint_id, complaint_details, customer_care_id, customer_care_details, status) 
                      VALUES (?, ?, ?, ?, ?, ?, ?, ?)''')
+        
     conn.commit()
     conn.close()
